@@ -1,0 +1,69 @@
+
+body {
+   overflow-x: hidden;
+}
+
+.slider {
+   height: 70vh;
+   background-color: green;
+   background-image: url('/images/photo2.png');
+   background-size: cover;
+   margin: -20px -13px 0px -13px;
+}
+
+.slider .col-md-12 {
+   margin-top: 10vh;
+   text-align: center;
+}
+
+.top-ads {
+   padding-top: 20px;
+   padding-bottom: 20px; 
+}
+
+.section-title {
+   margin-bottom: 10px;
+}
+
+.section-bottom {
+  margin: 10px;
+  text-align: center;
+}
+
+.section-title hr {
+   width: 40px;
+   background-color: red;
+   height: 5px;
+}
+
+.ad-top {
+   background-color: #fff;
+   padding-top: 5px;
+   border: ridge;
+   border-radius: 0% 0% 0% 0%; 
+}
+
+.ad-top img {
+   text-align: center;
+   width: 50%;
+   margin-bottom: 5px;
+}
+
+.ad-top .ad-info {
+   text-align: left;
+   padding: 5px;
+   background-color: #f5f8fa;
+}
+
+.ad-top .ad-info p {
+   margin: 1px;
+}
+
+.footer {
+   padding: 20px;
+   background-color: #000;
+}
+
+.footer-categories {
+   
+}
