@@ -82,6 +82,13 @@ body {
    color: #fff;
 }
 
+.slider-cont h1 {
+  font-family: DINPro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+}
+
 .slider-cont p {
    margin-top: 5vh;
    margin-bottom: 5vh;
@@ -101,10 +108,8 @@ searchbutton {
 }
 
 .slider-hr {
-   background-color: #fff;
+   color: #fff;
    border: none;
-   width: 80px;
-   height: 5px;
    margin-top: -3px;
 }
 
@@ -115,6 +120,7 @@ searchbutton {
 
 .section-title {
    margin-bottom: 10px;
+   color: #013d26;
 }
 
 .section-bottom {
@@ -124,7 +130,7 @@ searchbutton {
 
 .section-title hr {
    width: 40px;
-   background-color: red;
+   background-color: #013d26;
    height: 5px;
 }
 
@@ -136,7 +142,7 @@ searchbutton {
 
 .ad-top img {
    text-align: center;
-   width: 50%;
+   width: auto;
    height: 12vh;
    margin-bottom: 5px;
 }
@@ -151,12 +157,62 @@ searchbutton {
    margin: 1px;
 }
 
+.services {
+   margin: -15vh 5vh 2vh 5vh;
+   padding: 10px 5px 10px 5px;
+   background-color: #f6f9f4;
+   border-top: silver;
+}
+
+.service {
+    padding: 2vh;
+}
+
+.service span {
+    color: #013d26;
+}
+
+.service h4 {
+    color: #013d26;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+}
+
+.service p {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1.2em;
+     line-height: 1.5em;
+}
+
+.strip {
+  background-color: seagreen;
+  background-image: url('/images/images.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+}
+
+.stripcont {
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+.stripcont span h3{
+  color: #EFF2F5;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
 .footer {
    padding: 20px;
    background-color: #000;
 }
 
-
+.multi {
+  padding-bottom: 25vh;
+}
   .carousel-inner .active.left { left: -25%;
   }
   .carousel-inner .next {
